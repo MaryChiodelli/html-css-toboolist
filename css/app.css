@@ -9,6 +9,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+ul li {
+    padding: 5px 0;
+    list-style: none;
+}
+
 /* regole di main-header */
 .main-header {
     padding: 10px 20px;
@@ -20,13 +33,9 @@ body {
     vertical-align: middle;
 }
 
-a {
-    text-decoration: none;
-}
-
 /* regole di main */
 main {
-    padding: 40px 0 10px;
+    padding: 40px 10px 10px;
     background-color: #F6F8F9;
 }
 
@@ -45,11 +54,14 @@ main {
     border-bottom: 2px solid #F6F8F9;
 }
 
-.btn {
+.btn, .badge {
+    margin-right: 5px;
     display: inline-block;
     padding: 5px 10px;
+}
+
+.btn {
     border-radius: 5px;
-    margin-right: 5px;
     font-size: 12px;
 }
 
@@ -61,6 +73,43 @@ main {
 .btn-secondary {
     border: 1px solid #CDD2D6;
     color: #CDD2D6;
+}
+
+.card section {
+    padding: 30px 50px ;
+}
+
+.circle {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-right: 5px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 18px;
+    vertical-align: middle;
+}
+
+.circle-green {
+    border: 1px solid #64C0A9;
+    color: #64C0A9;
+}
+
+.circle-red {
+    border: 1px solid #EB5852;
+    color: #EB5852;
+}
+
+.badge {
+    border-radius: 10px;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: goldenrod;
+}
+
+.badge-editorial {
+    background-color: #47ADF1;
 }
 
 /* regole di debug */
