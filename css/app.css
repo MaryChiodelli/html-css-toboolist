@@ -1,5 +1,27 @@
+/* regole di reset */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* regole di main-header */
+.main-header {
+    padding: 10px 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.main-header .logo {
+    vertical-align: middle;
+}
+
+/* regole di debug */
+.debug * {
+    /* padding: 15px; */
+    /* border: 2px solid red; */
 }
