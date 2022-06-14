@@ -20,6 +20,49 @@ body {
     vertical-align: middle;
 }
 
+a {
+    text-decoration: none;
+}
+
+/* regole di main */
+main {
+    padding: 40px 0 10px;
+    background-color: #F6F8F9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.card header {
+    padding: 10px 50px;
+    border-bottom: 2px solid #F6F8F9;
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.btn-primary {
+    background-color: #47ADF1;
+    color: #ffffff;
+}
+
+.btn-secondary {
+    border: 1px solid #CDD2D6;
+    color: #CDD2D6;
+}
+
 /* regole di debug */
 .debug * {
     /* padding: 15px; */
